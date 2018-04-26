@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang"en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Let's talk</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="header">
+    <h1>Let's talk</h1>
+    <p>Think you have what it takes? Show us.</p>
+  </div>
+
+<form>
+  <h2 class="section-name">1. Personal information</h2>
+
+  <div class="top">
+
+    <div class="top-left">
+      <input type="text" name="name" placeholder="Full name*">
+      <input type="text" name="email" placeholder="Email*">
+      <input type="text" name="verified" placeholder="Re-enter email*">
+    </div>
+
+    <div class="top-right">
+      <input type="text" name="phone" placeholder="Phone*">
+    </div>
+
+  </div>
+
+  <div class="middle-top">
+    <div class="address">
+      <textarea id="address" style="height: 70px; width: 100%" placeholder="Address"></textarea>
+
+    </div>
+    <div class="low-middle-top">
+      <input type="text" name="city" placeholder="City*">
+      <input type="text" name="state" placeholder="State">
+      <input type="text" name="country" placeholder="Country/Region*">
+      <input type="text" name="post" placeholder="Zip/Postal code">
+    </div>
+    <input type="text" name="more" placeholder="How did you hear about us">
+  </div>
+
+  <h2 class="section-name">2. Skills and location</h2>
+
+  <h4>Which is your primary design discipline?*</h4>
+
+  <ul class="row-selection">
+    <li>
+      <input id="design" type="radio" name="discipline" value="design">
+      <label for="design">Design Research</label>
+    </li>
+    <li>
+      <input id="visual" type="radio" name="discipline" value="visual">
+      <label for="visual">Visual Design</label>
+    </li>
+    <li>
+      <input id="ux" type="radio" name="discipline" value="ux">
+      <label for="ux"> UX Design</label>
+    </li>
+    <li>
+      <input id="front" type="radio" name="discipline" value="front">
+      <label for="front">Front-end Dev</label>
+    </li>
+
+  </ul>
+
+<br>
+  <div class="column-selection">
+    <div class="col">
+      <h4>Do you have experience with any other disciplines?</h4>
+      <ul class="col-down">
+        <li>
+          <input id="visual1" type="checkbox" name="experience" value="visual">
+          <label for="visual1">Visual design</label><br>
+        </li>
+        <li>
+          <input id="ux1" type="checkbox" name="experience" value="ux">
+          <label for="ux1">UX design</label><br>
+        </li>
+        <li>
+          <input id="front1" type="checkbox" name="experience" value="front">
+          <label for="front1">Front-end Development</label><br>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h4>Where are you interested in working?*</h4>
+      <p>You must be legally authorized to work without visa sponsorship in the location(s) you choose</p>
+      <ul class="col-down">
+        <li>
+          <input id="texas" type="checkbox" name="place" value="texas">
+          <label for="texas">Austin, texas</label><br>
+        </li>
+        <li>
+          <input id="ca" type="checkbox" name="place" value="ca">
+          <label for="ca">New York, New York</label><br>
+        </li>
+        <li>
+          <input id="china" type="checkbox" name="place" value="china">
+          <label for="china">Shanghai, china</label><br>
+        </li>
+        <li>
+          <input id="ireland" type="checkbox" name="place" value="ireland">
+          <label for="ireland">Dublin, ireland</label><br>
+        </li>
+        <li>
+          <input id="uk" type="checkbox" name="place" value="uk">
+          <label for="uk">Hunley, United Kingdom</label><br>
+        </li>
+        <li>
+          <input id="germany" type="checkbox" name="place" value="germany">
+          <label for="germany">Boelingen, germany</label><br>
+        </li>
+        <li>
+          <input id="else" type="checkbox" name="place" value="else">
+          <label for="else">Somewhere else</label>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 class="section-name">3. Portfolio</h2>
+  <h4>Prove you're IBM's next great designer by sowing us wo you are. What you've done. How you think. Tell us your story.</h4>
+
+  <input id="portfolio" type="text" name="portfolio" placeholder="Portfolio link*"><br>
+  <textarea id="else" style="height: 200px; width: 100%" placeholder="Anything else (another link, availability, etc.)?"></textarea>
+
+  <input id="submit" type="submit" value="Submit">
+</form>
+
+
+
+
+
+
+</body>
+
+</html>
